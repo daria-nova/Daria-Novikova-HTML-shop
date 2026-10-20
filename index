@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Магазин одежды ZARA</title>
+    <meta name="description" content="Расписание скидок ЧЁРНОЙ ПЯТНИЦЫ. Следите за обновлениями, информация может меняться">
+    <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+    <meta name="theme-color" content="#CD5C5C">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js.app.js" defer></script>
+    <meta property="og:title" content="Магазин одежды ZARA">
+    <meta property="og:description" content="Самые выгодные предложения только в нашем магазине!">
+    <meta property="og:image" content="https://oletol.github.io/HTML_Course/assets/img/globe.svg">
+  </head>
+  <body>
+    <header>
+      <a href="#content">Перейти к основному содержанию</a>
+      <h1 style="color: #1A40E7;">Осенняя коллекция</h1>
+      <nav aria-label="Разделы страницы">
+        <ul>
+          <li><a href="#sale">Летняя распродажа</a></li>
+          <li><a href="#materials">Натуральные материалы</a></li>
+        </ul>
+       </nav>
+      </header>
+    
+  <main id="content">
+    <section>
+      <h2>Частые вопросы</h2>
+      <details name="faq" open>
+        <summary>Как можно вернуть товар? <span aria-hidden="true">*</span></summary>
+        <p>Да, для этого нужно оформить заявку.</p>
+      </details>
+      
+      <details name="faq">
+        <summary>Что делать, если карта клиента заблокирована?</summary>
+        <p>Вы можете перевыпустить карту в личном кабинете.</p>
+      </details>
+      
+      <details name="faq">
+        <summary>Куда можно потратить накопленные баллы?</summary>
+        <p>Баллы можно потратить на получение скидочных купонов.</p>
+      </details>
+     </section>
+     
+      <section>
+        <h2>Обратная связь</h2>
+        <form action="https://example.org/signup" method="post">
+          <label for="email">Электронная почта (обязательное поле)</label>
+          <input type="email" id="email" name="email" required>
+          
+          <label for="name">Имя (обязательное поле)</label>
+          <input type="text" id="name" name="name" required>
+          
+          <label for="password">Пароль (не более 20 символов)</label>
+          <textarea id="password" name="password" maxlength="20"></textarea>
+          
+          <label for="phone">Телефон в формате +7XXXXXXXXXX</label>
+          <input type="tel" id="phone" name="phone" pattern="\+7[0-9]{10}" title="Знак + и 11 цифр без пробелов">"
+          
+          <label for="comment">Комментарий</label>
+          <input type="text" id="comment" name="comment" maxlength="30">
+          
+          <label for="date">Дата</label>
+          <input type="date" id="date" name="date" min="2026-10-15">
+          
+          <label for="topic">Причина обращения</label>
+          <select id="topic" name="topic">
+            <option value="question">Вопрос</option>
+            <option value="sugg">Предложение</option>
+            <option value="comp">Жалоба</option>
+          </select>
+          
+          <fieldset>
+            <legend>Способ получения</legend>
+            
+            <input type="radio" id="pickup" name="pickuptype" value="pickup">
+            <label for="pickup">Самовызов</label>
+            
+            <input type="radio" id="postman" name="pickuptype" value="postman">
+            <label for="postman">Курьер</label>
+           </fieldset>
+          
+          <label for="delivery">Доставка</label>
+          <input type="text" id="delivery" name="deliverye" list="deliverylist">
+          <datalist id="deliverylist">
+            <option value="СДЭК"></option>
+            <option value="Яндекс Доставка"></option>
+            <option value="Авито"></option>
+          </datalist>
+            
+          <button type="submit">Подтвердить</button>
+       </form>
+      </section>
+      
+      <section>
+        <h2>Материалы</h2>
+        <p>Наша одежда сделана из натурального <abbr title="Хлопчатобумажная ткань">хлопка</abbr>.</p>
+        <p>Описание моделей на английском: <span lang="en">Oversized fit hoodie</span>.</p>
+        <p>Производитель одежды: <span translate="no">Passion 4 Fashion</span>.</p>
+        <p>Старт продаж новой коллекции: <time datetime="2026-11-11T00:00">11 ноября в 00:00</time>
+        <p>Ознакомиться с правилами возврата можно на этом сайте: <a href="https://www.zara.com" hreflang="en">Zara Store Guide</a></p>
+      </section>
+      
+      <section>
+        <h2 id="sale">Пальто и куртки</h2>
+        <p style="color: #14161E; background-color: rgb(231 234 253);">Новые модели уже доступны для заказа</p>
+        <img src="assets/img/books.svg" alt="Книжки" width="500" height="500">
+        <h3>В наличии все размеры</h3>
+        <p>Информация может меняться. Уточните у персонала</p>
+    
+        <figure>
+         <img src="assets/img/dialogue.svg" width="300" height="100" alt="Диалоговое окно" loading="lazy">
+         <figcaption>Наши консультанты всегда готовы вам помочь</figcaption>
+        </figure>
+      </section>
+      
+     <section>
+       <table>
+        <caption>Расписание осенних скидок</caption>
+         <thead>
+          <tr>
+           <th scope="col">День</th>
+           <th scope="col">Время</th>
+           <th scope="col">Формат</th>
+          </tr>
+         </thead>
+         <tbody>
+           <tr>
+             <th scope="row">Понедельник</th>
+             <td>00:00-23:59</td>
+             <td>Доступно в приложении</td>
+           </tr>
+         <tr>
+           <th scope="row">Среда</th>
+           <td>00:00-23:59</td>
+           <td>Доступно в приложении</td>
+         </tr>
+         <tr>
+            <th scope="row">Пятница</th>
+            <td>00:00-23:59</td>
+            <td>Доступно в приложении</td>
+         </tr>
+        </tbody>
+       </table>
+     </section>
+
+   <section>
+    <h2 id="materials">Вся одежда сделана из натуральных материалов</h2>
+    <p>Смотрите марку качества на бирке</p>
+    
+    <video src="assets/media/lingua.mp4" width="900" height="500" poster="assets/media/poster.jpg" controls>
+      <Нажмите, если видео не загружается. <a href="assets/media/lingua.mp4">Перейдите в стороннее приложение</a></p>
+    </video>
+    
+    <audio src="assets/media/chime.mp3" controls>
+      <p>Нажмите, если не воспроизводится аудио <a href="assets/media/chime.mp3">Перейдите в сторонее приложение</a></p>
+    </audio>
+
+    <p>Ознакомьтесь с правилами. <strong style="color: darkred;">Заходить в примерочные с едой и напитками ЗАПРЕЩЕНО</strong></p>
+    <p>За один раз можно взять до <em>7</em> вещей</p>
+    <p>Не забудьте оставить отзыв: <q>Вы помогаете нам становиться лучше!</q>.</p>
+    
+    <blockquote>
+      <p>Спасибо, что поддерживаете чистоту в примерочных</p>
+    </blockquote>
+    <p>Директор магазина Елена Воронина</p>
+
+    <p>Скидки распространяются на:</p>
+    <ul>
+      <li>верхнюю одежду
+        <ul>
+          <li>пальто и жилеты</li>
+          <li>джинсы</li>
+        </ul>
+      </li>
+      <li>детскую одежду</li>
+      <li>товары из прошлых коллекций</li>
+    </ul>
+    
+    <video width="400" height="600" controls>
+      <source src="assets/media/lingua.webm" type="video/webm">
+      <source src="assets/media/lingua.mp4" type="video/mp4">
+      <track src="assets/media/lingua.ru.vtt" kind="subtitles" srclang="ru" label="Русский" default>
+      <track src="assets/media/lingua.en.vtt" kind="subtitles" srclang="en" label="English">
+    </video>
+
+    <p>Как оформить карту лояльности:</p>
+    <ol>
+      <li>Зарегистрироваться с помощью номера телефона</li>
+      <li>Получить СМС код</li>
+      <li>Заполнить личные данные</li>
+    </ol>
+    
+    <p><a href="zara.com">Официальный сайт магазина</a></p>
+    
+    <p><a href="#sale">Распродажа летней коллекции</a></p>
+    <h2 id="sale">Летняя распродажа</h2>
+    
+    <iframe src="assets/embed/schedule.html"
+     title="Дни распродаж"
+     width="400" height="500"
+     loading="lazy"
+     sandbox>
+    </iframe>
+    <p><a href="assets/embed/schedule.html" target="_blank">Открыть календарь распродаж в новой вкладке</a></p>
+    
+    <a href="https://play.google.com" target="_blank" rel="noopener noreferrer">
+      Скачать официальное приложение Zara (откроется в новой вкладке)
+    </a>
+   </section>
+</main>
+
+<footer>
+    <p><a href="mailto:zara@official.com">zara@official.com</a></p>
+    <p><a href="tel:+79264863076">+7 926 486-30-76</a></p>
+    <p><a href="sizes.pdf" download>Таблица размеров, PDF, 120 КБ</a></p>
+</footer>
+  </body>
+</html>
