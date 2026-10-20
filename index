@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Магазин одежды ZARA</title>
     <meta name="description" content="Расписание скидок ЧЁРНОЙ ПЯТНИЦЫ. Следите за обновлениями, информация может меняться">
-    <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="https://github.com/daria-nova/Daria-Novikova-HTML-shop/assets/boots.jpg" type="image/jpeg+xml">
     <meta name="theme-color" content="#CD5C5C">
     <link rel="stylesheet" href="css/style.css">
     <script src="js.app.js" defer></script>
     <meta property="og:title" content="Магазин одежды ZARA">
     <meta property="og:description" content="Самые выгодные предложения только в нашем магазине!">
-    <meta property="og:image" content="https://oletol.github.io/HTML_Course/assets/img/globe.svg">
+    <meta property="og:image" content="https://github.com/daria-nova/Daria-Novikova-HTML-shop/assets/coat.jpg">
   </head>
   <body>
     <header>
@@ -57,7 +57,7 @@
           <textarea id="password" name="password" maxlength="20"></textarea>
           
           <label for="phone">Телефон в формате +7XXXXXXXXXX</label>
-          <input type="tel" id="phone" name="phone" pattern="\+7[0-9]{10}" title="Знак + и 11 цифр без пробелов">"
+          <input type="tel" id="phone" name="phone" pattern="\+7[0-9]{10}" title="Знак + и 11 цифр без пробелов">
           
           <label for="comment">Комментарий</label>
           <input type="text" id="comment" name="comment" maxlength="30">
@@ -106,12 +106,12 @@
       <section>
         <h2 id="sale">Пальто и куртки</h2>
         <p style="color: #14161E; background-color: rgb(231 234 253);">Новые модели уже доступны для заказа</p>
-        <img src="assets/img/books.svg" alt="Книжки" width="500" height="500">
+        <img src="https://github.com/daria-nova/Daria-Novikova-HTML-shop/assets/jacket.jpg" alt="Куртка" width="500" height="500">
         <h3>В наличии все размеры</h3>
         <p>Информация может меняться. Уточните у персонала</p>
     
         <figure>
-         <img src="assets/img/dialogue.svg" width="300" height="100" alt="Диалоговое окно" loading="lazy">
+         <img src="https://github.com/daria-nova/Daria-Novikova-HTML-shop/assets/coat.jpg" width="300" height="100" alt="Куртка" loading="lazy">
          <figcaption>Наши консультанты всегда готовы вам помочь</figcaption>
         </figure>
       </section>
